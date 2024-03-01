@@ -4,3 +4,5 @@ port: 8080
 PARAMETERS: "cart.prod.REDIS_HOST,REDIS_HOST cart.prod.CATALOGUE_HOST,CATALOGUE_HOST cart.prod.CATALOGUE_PORT,CATALOGUE_PORT"
 schema:
   enabled: false
+
+replicaCount: 2
