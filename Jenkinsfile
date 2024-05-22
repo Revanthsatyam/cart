@@ -8,7 +8,7 @@ pipeline {
       steps {
         echo 'Hello World'
         demo.info 'Starting'
-        demo.warning 'Nothing to do!'
+        demo.warning 'Nothing to do!!'
       }
     }
 
