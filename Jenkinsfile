@@ -7,8 +7,10 @@ pipeline {
     stage('Compile') {
       steps {
         echo 'Hello World'
-        demo.info 'Starting'
-        demo.warning 'Nothing to do!!'
+        script {
+          demo.info 'Starting'
+          demo.warning 'Nothing to do!!'
+        }
       }
     }
 
