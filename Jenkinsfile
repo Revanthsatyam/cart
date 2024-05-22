@@ -5,10 +5,6 @@ pipeline {
       stage('Compile Code') {
         steps {
           echo 'Hello World'
-          script {
-            info 'Starting'
-            warning 'Nothing to do!!'
-          }
         }
       }
 
