@@ -1,0 +1,8 @@
+component: cart
+service_type: ClusterIP
+port: 80
+container_port: 8080
+target_port: 8080
+PARAMETERS_ENABLED: true
+PARAMETERS: "cart.prod.CATALOGUE_HOST,CATALOGUE_HOST cart.prod.CATALOGUE_PORT,CATALOGUE_PORT cart.prod.REDIS_HOST,REDIS_HOST"
+env: prod
