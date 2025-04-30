@@ -1,4 +1,4 @@
-name: Cart Application
+name: Cart Application 
 
 on:
   push:
