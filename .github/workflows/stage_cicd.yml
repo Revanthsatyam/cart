@@ -1,8 +1,6 @@
 name: Cart Application
 
 on:
-  push:
-    branches: [ "stage" ]
   pull_request:
     branches: [ "stage" ]
 
